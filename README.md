@@ -1,26 +1,36 @@
-🚀 Olist Growth Engine
-Sistema para recomendar productos y aumentar las ventas analizando el comportamiento del cliente.
+# 🚀 OLIST GROWTH ENGINE
 
-📝 ¿Qué hace?
+**Sistema para recomendar productos y optimizar las ventas analizando el comportamiento del cliente..**
+
+---
+
+### 📝 ¿QUÉ HACE EL PROYECTO?
 Analiza los datos de Olist para agrupar clientes según cuánto gastan y cuándo compran. Con esto, el sistema predice qué productos ofrecer a nuevos usuarios para asegurar que la recomendación sea exitosa.
 
-🛠️ Tecnología
-Python
+---
 
-Machine Learning: K-Prototypes (clustering) y LightGBM (predicción).
+### 🛠️ STACK TECNOLÓGICO
+* **LENGUAJE:** `Python`
+* **MACHINE LEARNING:**
+    * `K-Prototypes` para clustering de datos mixtos.
+    * `LightGBM` para la clasificación predictiva.
+* **INGENIERÍA DE DATOS:** Uso de `Periodic Splines` para el tratamiento cíclico de variables temporales.
 
-Ingeniería: Splines para entender las horas como un ciclo.
+---
 
-⚙️ Pasos del Proyecto
-Análisis (EDA): Exploración de tendencias de ventas y comportamiento del consumidor.
+### ⚙️ PIPELINE DEL PROYECTO
+1. **ANÁLISIS EXPLORATORIO (EDA):** Identificación de tendencias de ventas y patrones de comportamiento.
+2. **INGENIERÍA DE CARACTERÍSTICAS:** Limpieza y creación de variables de tiempo (Splines).
+3. **SEGMENTACIÓN:** Creación de grupos de clientes con K-Prototypes.
+4. **PREDICCIÓN:** Modelo entrenado con LightGBM para identificar el clúster de un cliente nuevo.
+5. **RECOMENDACIÓN:** Función final que entrega los productos ideales para cada tipo de cliente.
 
-Ingeniería de características: Limpieza y creación de variables de tiempo (Splines).
+---
 
-Segmentación: Creación de grupos de clientes con K-Prototypes.
+### 🚧 ESTADO DEL PROYECTO
+> 
+> En desarrollo.Faltan comentarios y mejorar el análisis pues he optado por hacer un proyecto funcional y a continuación finalizarlo.
 
-Predicción: Modelo que identifica a qué grupo pertenece un cliente nuevo.
+---
 
-Recomendación: Función final que entrega los productos ideales por cada grupo.
 
-🚧
-En desarrollo. Faltan comentarios y mejorar el análisis pues he optado por hacer un proyecto funcional y a continuación finalizarlo.
